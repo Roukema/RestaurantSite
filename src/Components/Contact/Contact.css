@@ -1,0 +1,14 @@
+.contact {
+  background-color: rgba(87, 70, 62, 1);
+}
+.contactTekst {
+  width: 50%;
+  padding: 20px;
+  text-align: center;
+}
+tbody tr td:nth-child(1) {
+  float: left;
+}
+tbody tr td:nth-child(2) {
+  padding-left: 10px;
+}

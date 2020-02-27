@@ -1,0 +1,34 @@
+.header {
+  background-image: url(./pexels-photo-67468.jpeg);
+  height: 880px;
+  width: 100%;
+  margin: 0;
+  background-position: start;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+.logo {
+  width: 300px;
+  position: absolute;
+  top: 10px;
+  left: 20px;
+}
+.reserveerContainer {
+  position: absolute;
+  margin-top: 450px;
+  width: 100%;
+  text-align: center;
+}
+.reserveerButton {
+  padding: 20px 35px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.8);
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+.reserveerButton:hover {
+  background-color: rgba(0, 0, 0, 1);
+}

@@ -1,0 +1,10 @@
+.reviews {
+  background-color: rgba(87, 70, 62, 1);
+  margin: 0;
+  height: 200px;
+  width: 100%;
+}
+.reviews p {
+  margin: 0;
+  padding: 20px;
+}
