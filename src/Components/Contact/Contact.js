@@ -1,5 +1,6 @@
 import React from "react";
 import "./Contact.css";
+import AdressOnMap from "./Map/Map";
 
 function Contact() {
   return (
@@ -44,7 +45,9 @@ function Contact() {
           <br /> Restaurant@site.nl
         </p>
       </div>
-      <div className="contactKaart"></div>
+      <div className="contactKaart">
+        <AdressOnMap />
+      </div>
     </div>
   );
 }

@@ -1,9 +1,12 @@
 .contact {
   background-color: rgba(87, 70, 62, 1);
+  position: initial;
+  height: 400px;
 }
 .contactTekst {
   width: 50%;
-  padding: 20px;
+  float: left;
+  padding: 20px 0px;
   text-align: center;
 }
 tbody tr td:nth-child(1) {
@@ -11,4 +14,10 @@ tbody tr td:nth-child(1) {
 }
 tbody tr td:nth-child(2) {
   padding-left: 10px;
+}
+.contactKaart {
+  position: relative;
+  width: 50%;
+  height: 400px;
+  float: right;
 }

@@ -1,0 +1,12 @@
+.adressOnMap {
+  position: absolute;
+  height: 400px;
+}
+.map {
+  height: 100%;
+}
+#marker {
+  background-color: red;
+  height: 50000%;
+  width: 500%;
+}
