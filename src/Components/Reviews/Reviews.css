@@ -8,3 +8,58 @@
   margin: 0;
   padding: 20px;
 }
+
+.reviews > * {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: rgba(205, 168, 150, 1);
+  animation: reviewSlide 12s infinite;
+  overflow: hidden;
+}
+.review {
+  height: 200px;
+  display: block;
+}
+reviews:nth-child(1) {
+  left: 0%;
+  animation-delay: -1s;
+  background-size: cover;
+  background-position: center;
+}
+reviews:nth-child(2) {
+  animation-delay: 2s;
+  background-size: cover;
+  background-position: center;
+}
+reviews:nth-child(3) {
+  animation-delay: 5s;
+  background-size: cover;
+  background-position: center;
+}
+
+@keyframes reviewSlide {
+  0% {
+    left: 100%;
+    width: 100%;
+  }
+  5% {
+    left: 0%;
+  }
+  25% {
+    left: 0%;
+  }
+  30% {
+    left: -100%;
+    width: 100%;
+  }
+  30.0001% {
+    left: -100%;
+    width: 0%;
+  }
+  100% {
+    left: 100%;
+    width: 0%;
+  }
+}
